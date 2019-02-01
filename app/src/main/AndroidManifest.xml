@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.doomteamjourney.jojomeister.jajaninaja">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.doomteamjourney.jojomeister.jajaninaja.activity.WelcomeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.doomteamjourney.jojomeister.jajaninaja.activity.LoginActivity" />
+        <activity android:name="com.doomteamjourney.jojomeister.jajaninaja.activity.MainActivity" />
+        <activity android:name="com.doomteamjourney.jojomeister.jajaninaja.activity.DaftarActivity" />
+        <activity android:name="com.doomteamjourney.jojomeister.jajaninaja.activity.ResetPasswordActivity" />
+        <activity android:name="com.doomteamjourney.jojomeister.jajaninaja.activity.HomePelangganActivity" />
+        <activity android:name="com.doomteamjourney.jojomeister.jajaninaja.activity.HomePenjualActivity" />
+        <activity android:name="com.doomteamjourney.jojomeister.jajaninaja.activity.MenuPelangganActivity" />
+        <activity android:name="com.doomteamjourney.jojomeister.jajaninaja.activity.LokasiActivity" />
+        <activity android:name="com.doomteamjourney.jojomeister.jajaninaja.activity.ProfilActivity" />
+        <activity android:name="com.doomteamjourney.jojomeister.jajaninaja.activity.ChangePasswordActivity"/>
+        <activity android:name="com.doomteamjourney.jojomeister.jajaninaja.activity.TampilMenuMakananActivity" />
+        <activity android:name="com.doomteamjourney.jojomeister.jajaninaja.activity.TampilMenuMinumanActivity" />
+        <activity android:name="com.doomteamjourney.jojomeister.jajaninaja.activity.TampilMenuSnackActivity" />
+        <activity android:name="com.doomteamjourney.jojomeister.jajaninaja.activity.TampilMenuEsKrimActivity" />
+        <activity android:name="com.doomteamjourney.jojomeister.jajaninaja.activity.PesanActivity" />
+        <activity android:name="com.doomteamjourney.jojomeister.jajaninaja.activity.CartActivity" />
+        <activity android:name="com.doomteamjourney.jojomeister.jajaninaja.activity.ProfilPelangganActivity" />
+        <activity android:name="com.doomteamjourney.jojomeister.jajaninaja.activity.ProfilPelangganUpdateActivity" />
+    </application>
+
+</manifest>
